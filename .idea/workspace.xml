@@ -9,14 +9,8 @@
       <change afterPath="$PROJECT_DIR$/ss4_git_html/Thuc_hanh/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ss4_git_html/Thuc_hanh/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ss4_git_html/Thuc_hanh/wf-hello" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4_git_html/bai_tap/cv_ca_nhan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_git_html/Bai_Tap/Bai_Tap_Danh_Sach.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss4_git_html/bai_tap/bai_tap_danh_sach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_git_html/New folder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_git_html/RAEADME.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss4_git_html/Thuc_hanh" beforeDir="false" afterPath="$PROJECT_DIR$/ss4_git_html/Thuc_hanh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_htm_form_table/~$ạn bài.rtf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +20,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ss5_htm_form_table/form_so_thich.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -47,7 +45,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/codegym/module1",
+    "last_opened_file_path": "D:/codegym/module1/ss4_git_html/bai_tap",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +55,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codegym\module1\ss4_git_html\bai_tap" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +76,10 @@
       <option name="presentableId" value="Default" />
       <updated>1730729349610</updated>
       <workItem from="1730729351042" duration="128000" />
-      <workItem from="1731072276826" duration="2077000" />
+      <workItem from="1731072276826" duration="2373000" />
+      <workItem from="1731499430507" duration="7959000" />
+      <workItem from="1731519794691" duration="5811000" />
+      <workItem from="1731670841700" duration="11748000" />
     </task>
     <servers />
   </component>

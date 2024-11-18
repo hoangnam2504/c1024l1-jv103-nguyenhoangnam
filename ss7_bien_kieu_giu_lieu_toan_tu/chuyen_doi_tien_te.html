@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+  <tr>
+    <td> <label>Số tiền</label></td>
+    <td> <label>Từ loại tiền</label></td>
+    <td> <label>Sang loại tiền</label></td>
+  </tr>
+
+  <tr>
+    <td> <input type="text" id="amount"> </td>
+    <td>
+      <select id="a">
+          <option>VND</option>
+          <option>USD</option>
+    </select>
+    </td>
+    <td>
+      <select id="b">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+      </select>
+    </td>
+    <td>
+      <button onclick="lamgi()">Kết quả</button>
+    </td>
+  </tr>
+
+  <script>
+    function  lamgi() {
+      let c = document.getElementById('amount').value
+      let a = document.getElementById('a').value
+      let b = document.getElementById('b').value
+      if (a == 'VND' && b == 'USD') {
+      alert(c / 24000)
+      }
+      if(a == 'USD' && b =='VND') {
+        alert(c * 24000)
+      }
+      if( a == b) {
+        alert(c)
+      }
+
+    }
+    document.write('Giá tri la=' +c);
+  </script>
+
+
+
+
+
+
+
+
+
+
+</table>
+
+</body>
+</html>
