@@ -6,60 +6,50 @@
 </head>
 <body>
 <table>
-  <tr>
-    <td> <label>Số tiền</label></td>
-    <td> <label>Từ loại tiền</label></td>
-    <td> <label>Sang loại tiền</label></td>
-  </tr>
+    <tr>
+        <td><label>Số tiền</label></td>
+        <td><label>Từ loại tiền</label></td>
+        <td><label>Sang loại tiền</label></td>
+    </tr>
 
-  <tr>
-    <td> <input type="text" id="amount"> </td>
-    <td>
-      <select id="a">
-          <option>VND</option>
-          <option>USD</option>
-    </select>
-    </td>
-    <td>
-      <select id="b">
-        <option value="VND">VND</option>
-        <option value="USD">USD</option>
-      </select>
-    </td>
-    <td>
-      <button onclick="lamgi()">Kết quả</button>
-    </td>
-  </tr>
-
-  <script>
-    function  lamgi() {
-      let c = document.getElementById('amount').value
-      let a = document.getElementById('a').value
-      let b = document.getElementById('b').value
-      if (a == 'VND' && b == 'USD') {
-      alert(c / 24000)
-      }
-      if(a == 'USD' && b =='VND') {
-        alert(c * 24000)
-      }
-      if( a == b) {
-        alert(c)
-      }
+    <tr>
+        <td><input type="text" id="amount"></td>
+        <td>
+            <select id="a">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="b">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="doiTien()">Kết quả</button>
+        </td>
+    </tr>
+    <p>
+    <h2 id="kq">Result:</h2>
+    </p>
+</table>
+<script>
+    function doiTien() {
+        let tien = document.getElementById('amount').value
+        let from = document.getElementById('a').value
+        let to = document.getElementById('b').value
+        if (from == 'VND' && to == 'USD') {
+            document.getElementById("kq").innerText = tien / 24000
+        }else if (from == 'USD' && to == 'VND') {
+            document.getElementById("kq").innerText = tien * 24000
+        }else {
+            document.getElementById("kq").innerText = tien
+        }
 
     }
-    document.write('Giá tri la=' +c);
-  </script>
 
-
-
-
-
-
-
-
-
-
-</table>
+</script>
 
 </body>
 </html>

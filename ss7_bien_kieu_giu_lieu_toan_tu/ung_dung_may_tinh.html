@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MÁY TINH</title>
+</head>
+<body>
+<h2>MAY TINH</h2>
+<table>
+    <tr>
+        <td colspan="2"><input type="text" id="sothu1"></td>
+        <td colspan="2"><input type="text" id="sothu2"></td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="Cong()">Cộng</button>
+        </td>
+        <td>
+            <button onclick="Tru()">Trừ</button>
+        </td>
+        <td>
+            <button onclick="Nhan()">Nhân</button>
+        </td>
+        <td>
+            <button onclick="Chia()">Chia</button>
+        </td>
+    </tr>
+</table>
+<h2 id="kq"></h2>
+<script>
+    function Cong() {
+        let sothu1 = +document.getElementById('sothu1').value
+        let sothu2 = +document.getElementById('sothu2').value
+        document.getElementById('kq').innerText = sothu1 + sothu2
+    }
+
+    function Tru() {
+        let sothu1 = +document.getElementById('sothu1').value
+        let sothu2 = +document.getElementById('sothu2').value
+        document.getElementById('kq').innerText = sothu1 - sothu2
+    }
+
+    function Nhan() {
+        let sothu1 = +document.getElementById('sothu1').value
+        let sothu2 = +document.getElementById('sothu2').value
+        document.getElementById('kq').innerText = sothu1 * sothu2
+    }
+
+    function Chia() {
+        let sothu1 = +document.getElementById('sothu1').value
+        let sothu2 = +document.getElementById('sothu2').value
+        document.getElementById('kq').innerText = sothu1 / sothu2
+    }
+</script>
+
+</body>
+</html>
