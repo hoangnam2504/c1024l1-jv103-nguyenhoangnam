@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2> Tìm số lớn nhất</h2>
+<label>Nhập số thứ 1</label>
+<input type="text" id="soThu1" placeholder="nhập số thứ nhất"><br><br>
+<label>Nhập số thứ 2</label>
+<input type="text" id="soThu2" placeholder="nhập số thứ hai"><br><br>
+<label>Nhập số thứ 3</label>
+<input type="text" id="soThu3" placeholder="nhập số thứ ba"><br><br>
+<button onclick="check()">Check</button>
+<h2 id="kq"></h2>
+<script>
+    function check() {
+        let soThu1 = +document.getElementById('soThu1').value
+        let soThu2 = +document.getElementById('soThu2').value
+        let soThu3 = +document.getElementById('soThu3').value
+        if (soThu1 >= soThu2 && soThu1 >= soThu3) {
+            document.getElementById('kq').innerHTML = `Số ${soThu1} lớn nhất`
+        } else if (soThu2 >= soThu1 && soThu2 >= soThu3) {
+            document.getElementById('kq').innerHTML = `Số ${soThu2} lớn nhất`
+        } else {
+            document.getElementById('kq').innerHTML = ` Số ${soThu3} lớn nhất `
+        }
+    }
+
+</script>
+</body>
+</html>

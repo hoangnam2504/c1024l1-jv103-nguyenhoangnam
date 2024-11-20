@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số nguyên</title>
+</head>
+<body>
+<input type="text" id="soNguyen" placeholder=" nhập số ">
+<button onclick="Check()">Kiểm Tra</button>
+<h2 id="kq"></h2>
+  <script>
+    function Check() {
+      let soNguyen = document.getElementById('soNguyen').value
+        if (soNguyen < 0) {
+          document.getElementById('kq').innerHTML = ' Nhỏ hơn 0'}
+        else if (soNguyen = 0) {
+          document.getElementById('kq').innerHTML = ' Bằng 0'}
+        else {
+          document.getElementById('kq').innerHTML = ' Lớn hơn 0'
+        }
+    }
+
+
+  </script>
+
+</body>
+</html>

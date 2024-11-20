@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2> Kiểm tra Số thú nhất chia hết số thứ 2 không</h2>
+<label>Nhập số thứ nhất</label>
+<input type="text" id="soThu1"> <br>
+<label> Nhập số thứ hai</label>
+<input type="text" id="soThu2"> <br>
+<button onclick="kiemTra()"> Kiểm Tra</button>
+<h2 id="ketQua"></h2>
+<script>
+    function kiemTra() {
+        let soThu1 = document.getElementById('soThu1').value
+        let soThu2 = document.getElementById('soThu2').value
+        if (soThu1 % soThu2 == 0) {
+            document.getElementById("ketQua").innerHTML = 'Chia hết'
+        } else {
+            document.getElementById("ketQua").innerHTML = ' Không chia hết '
+        }
+    }
+
+</script>
+
+</body>
+</html>
