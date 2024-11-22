@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let luong = +prompt('nhập tiền lương');
+  let tienThue;
+  if (luong <= 5000000) {
+    tienThue = luong * 0.05
+  } else if ( luong <=10000000) {
+    tienThue= luong * 0.1
+  } else if ( luong <= 18000000) {
+    tienThue = luong * 0.15
+  }
+  alert(tienThue);
+</script>
+
+</body>
+</html>

@@ -19,13 +19,15 @@
         let soThu1 = +document.getElementById('soThu1').value
         let soThu2 = +document.getElementById('soThu2').value
         let soThu3 = +document.getElementById('soThu3').value
+        let max=0;
         if (soThu1 >= soThu2 && soThu1 >= soThu3) {
-            document.getElementById('kq').innerHTML = `Số ${soThu1} lớn nhất`
+           max= soThu1;
         } else if (soThu2 >= soThu1 && soThu2 >= soThu3) {
-            document.getElementById('kq').innerHTML = `Số ${soThu2} lớn nhất`
+            max= soThu2;
         } else {
-            document.getElementById('kq').innerHTML = ` Số ${soThu3} lớn nhất `
+           max= soThu3;
         }
+        document.getElementById('kq').innerHTML = ` Số ${max} lớn nhất `
     }
 
 </script>

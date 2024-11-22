@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2> Tính giá điện </h2>
+<input type="text" id="kwh" placeholder="Nhập số kwh">
+<br>
+<br>
+<button onclick="ketQua()">Tính tiền</button>
+<p id="kq"></p>
+<script>
+    function ketQua() {
+        let soDien = document.getElementById('kwh').value;
+        let tongTien = 0;
+        if (soDien <= 50) {
+            tongTien = soDien * 1.678;
+        } else if (soDien <= 100) {
+            tongTien = 50*1.678 + (soDien-50)*1.734;
+        } else if (soDien <=200) {
+            tongTien = 50*1.678 + 50*1.734 + (soDien-100)*2.014
+        }
+        document.getElementById('kq').innerHTML = `Tiền cần thanh toán là ${tongTien}vnd`
+    }
+
+
+</script>
+</body>
+</html>
