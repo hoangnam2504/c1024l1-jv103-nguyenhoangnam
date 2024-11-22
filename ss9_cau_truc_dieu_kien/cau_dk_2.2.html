@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2> Đổi m sang feet </h2>
+<input type="text" id="met" placeholder=" nhập số met ">
+<button onclick="ketqua()">Check</button>
+<p id="kq" ></p>
+<script>
+  function ketqua() {
+    let met = document.getElementById('met').value
+      let ft = met * 3.2808
+        document.getElementById('kq').innerHTML = ` ${met}m bằng ${ft}ft `
+
+  }
+
+
+</script>
+</body>
+</html>
