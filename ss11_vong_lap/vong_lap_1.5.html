@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let fibo = 1
+  let f1 = 0
+  let f2 = 1
+  let sum = f1 + f2
+  let count = 1
+  while (count <= 20 ) {
+    fibo = f1 + f2
+    f1 = f2
+    f2 = fibo
+    sum = sum + fibo
+    count += 1
+  }
+  document.write(sum)
+</script>
+</body>
+</html>

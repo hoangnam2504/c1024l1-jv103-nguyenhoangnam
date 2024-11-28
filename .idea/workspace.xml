@@ -11,7 +11,6 @@
       <change afterPath="$PROJECT_DIR$/ss4_git_html/Thuc_hanh/wf-hello" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss4_git_html/Thuc_hanh" beforeDir="false" afterPath="$PROJECT_DIR$/ss4_git_html/Thuc_hanh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien/cau_truc_dk_b4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien/cau_truc_dk_b4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/codegym/module1/ss4_git_html/bai_tap",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/codegym/md1/src/main.js",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/module1/ss4_git_html/bai_tap&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/codegym/md1/src/main.js&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\codegym\module1\ss4_git_html\bai_tap" />
@@ -87,7 +86,9 @@
       <workItem from="1731519794691" duration="5811000" />
       <workItem from="1731670841700" duration="18300000" />
       <workItem from="1732102232580" duration="9587000" />
-      <workItem from="1732275273149" duration="8104000" />
+      <workItem from="1732275273149" duration="9020000" />
+      <workItem from="1732707687747" duration="9262000" />
+      <workItem from="1732769845129" duration="6281000" />
     </task>
     <servers />
   </component>

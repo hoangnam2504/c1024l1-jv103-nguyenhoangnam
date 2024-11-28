@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let fibo = 1
+    let f1 = 0
+    let f2 = 1
+    while (true) {
+        fibo = f1 + f2
+        f1 = f2
+        f2 = fibo
+        if (fibo % 5 === 0) {
+            document.write(fibo);
+           break;
+        }
+    }
+
+
+
+</script>
+</body>
+</html>
