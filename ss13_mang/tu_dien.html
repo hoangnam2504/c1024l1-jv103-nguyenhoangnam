@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id ='ketQua'>Ket qua</p>
+<input type="text" id="words" placeholder=" nhập tieng viet vào ">
+<button onclick="kq()"> Dịch</button>
+  <script>
+    function kq() {
+    let vn = ['chuoi', 'tao', 'cam' ];
+    let eng = ['banana', 'apple', 'orange'];
+    let str = eng.toString();
+      for (let i = 1; i<str.length; i++) {
+      vn[i] = eng[i]
+      }
+      document.getElementById('ketQua').innerText = eng
+
+    }
+
+  </script>
+
+</body>
+</html>

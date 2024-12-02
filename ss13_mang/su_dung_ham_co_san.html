@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = prompt()
+    let str = num.toString()
+    let mangKq = []
+    for (let i = 0; i < str.length - 1; i++) {
+        if (str[i] % 2 === 0 && str[i + 1] % 2 === 0) {
+            mangKq.push(str[i]);
+            mangKq.push('-');
+        } else {
+            mangKq.push(str[i])
+        }
+    }
+    mangKq.push(str[str.length-1])
+
+  alert(mangKq.join(''))
+</script>
+
+</body>
+</html>
